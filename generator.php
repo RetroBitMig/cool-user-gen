@@ -209,4 +209,6 @@ echo $wordOne[$keyOne];
 echo " ";
 echo $wordTwo[$keyTwo];
 echo "</center></name>";
+print "<br /><br /><br /><br /><br />";
+print "<p>Hey, you. Yeah you. Wanna check out the <a href=\"https://github.com/TomatoHentai/tomatoHentaiUsernameGenerator\">Github repository?</a></p>";
 ?>
