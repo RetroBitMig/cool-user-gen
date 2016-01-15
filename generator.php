@@ -77,7 +77,6 @@ $wordOne = array
 "Endless",
 "M.U.L.E.",
 "Prince",
-"Parappa",
 "Parappa the",
 "Amplified",
 "Asexual",
@@ -96,7 +95,18 @@ $wordOne = array
 "Inu",
 "World Wide",
 "Cherry",
-"Sautéed");
+"Sautéed",
+"Low-Poly",
+"Potentially Unwanted",
+"Plasma",
+"Salty",
+"Wampus",
+"Intergalactic",
+"Ethereal",
+"Omnipotent",
+"Omnipresent",
+"Trans",
+"Emo");
 $wordTwo = array
 ("Hentai",
 "Lemonade",
@@ -201,7 +211,21 @@ $wordTwo = array
 "RAID0",
 "RAID10",
 "Brogue",
-"Cocaine");
+"Cocaine",
+"Heroin",
+"Cartwheel",
+"Neighbour",
+"Stench",
+"Friend",
+"Kin",
+"the Hedgehog",
+"Sausage",
+"Rave",
+"MySpace",
+"Tumblr",
+"Facebook",
+"Instagram",
+"Twitter");
 $keyOne = array_rand($wordOne);
 $keyTwo = array_rand($wordTwo);
 echo "<name><center>";
