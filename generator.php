@@ -37,7 +37,7 @@ $wordOne = array
 "Drago",
 "Wookie",
 "Mt.",
-"Saftey",
+"Safety",
 "Depressed",
 "Bipolar",
 "Hungry",
