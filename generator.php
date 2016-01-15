@@ -11,8 +11,8 @@ Username Generator
 </html>
 <?php
 print "<h1>Tomato Hentai's Username Generator </h1>";
-print "<tiny><center>Sometimes you'll need to refresh the page a few times to get a new username.</center></tiny>";
-print "<br />";
+print "<tiny><center>Sometimes you'll need to refresh the page a few times to get a new username.<br />Blame the government... or... something.</center></tiny>";
+print "<br /><br />";
 print "<center><p>Your new username is...</p></center>";
 $wordOne = array
 ("Tomato",
@@ -52,7 +52,6 @@ $wordOne = array
 "Pocket",
 "Pigmask",
 "Cabbage",
-"RAID0",
 "CRT",
 "Psychotic",
 "Gay",
@@ -95,7 +94,9 @@ $wordOne = array
 "Cat",
 "Dog",
 "Inu",
-"World Wide");
+"World Wide",
+"Cherry",
+"Sautéed");
 $wordTwo = array
 ("Hentai",
 "Lemonade",
@@ -182,7 +183,25 @@ $wordTwo = array
 "Piñata",
 "Gnop",
 "Foreskin",
-"CFW");
+"CFW",
+"Oxygen",
+"Dolan",
+"Pie",
+"Yarn",
+"Plane",
+"Dirt",
+"Bukkake",
+"Whimbrel",
+"Knight",
+"Feminist",
+"Prick",
+"Detective",
+"Hebetude",
+"Enema",
+"RAID0",
+"RAID10",
+"Brogue",
+"Cocaine");
 $keyOne = array_rand($wordOne);
 $keyTwo = array_rand($wordTwo);
 echo "<name><center>";
