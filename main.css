@@ -25,3 +25,15 @@ center
 {
 	text-align: center;
 }
+
+body
+{
+	background-color: #020024;
+	color: #FFE3FD;
+	font-family: serif;
+}
+
+a
+{
+	color: E3E3E3;
+}
