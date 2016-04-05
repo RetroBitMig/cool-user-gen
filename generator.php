@@ -8,7 +8,7 @@ href="main.css">
 Username Generator
 </title>
 </head>
-</html>
+<body>
 <?php
 print "<h1>Tomato Hentai's Username Generator </h1>";
 print "<tiny><center>Sometimes you'll need to refresh the page a few times to get a new username.<br />Blame the government... or... something.</center></tiny>";
@@ -228,11 +228,9 @@ $wordTwo = array
 "Twitter");
 $keyOne = array_rand($wordOne);
 $keyTwo = array_rand($wordTwo);
-echo "<name><center>";
-echo $wordOne[$keyOne];
-echo " ";
-echo $wordTwo[$keyTwo];
-echo "</center></name>";
+echo "<name><center>" $wordOne[$keyOne] " " $wordTwo[$keyTwo] "</center></name>";
 print "<br /><br /><br /><br /><br />";
 print "<p>Hey, you. Yeah you. Wanna check out the <a href=\"https://github.com/TomatoHentai/tomatoHentaiUsernameGenerator\">Github repository?</a></p>";
 ?>
+</body>
+</html>
