@@ -22,7 +22,6 @@ header("Pragma: no-cache");
 			$keyTwo = array_rand($wordTwo);
 			echo "<name><center>$wordOne[$keyOne] $wordTwo[$keyTwo]</center></name>";
 			echo "<br />";
-			echo "<p>Hey, you. Yeah you. Wanna check out the <a href=\"https://github.com/headache-booth/\">creator</a>?</p>";
 		?>
 	</body>
 </html>
